@@ -41,13 +41,16 @@
     </div>
     <section id="about"> 
         <div class=" p-3  lg:grid grid-cols-3 lg:gap-4 spac">
-            <div class=" max-h-[24rem] lg:h-[24rem] p-2 shadow-lg">
-                <div class=" h-40 md:h-56  ">
+            <div class="relative max-h-[24rem] lg:h-[24rem] p-2 shadow-lg group transition-all">
+                <div class=" h-40 md:h-56">
                     <img class="h-full w-full object-cover rounded" src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
                 </div>
                 <div class=" p-3 rounded-lg font-medium">
                     <p class="lg:font-bold"><strong>IT Insurance</strong></p>
-                    <p class="lg:font-normal">Insurance is playing important role in our individuals, commerce, Industry and etc. Now a days Information technology is impact in all areas including insurance sector.</p>
+                    <p class="">Insurance is playing important role in our individuals, commerce, Industry and etc. Now a days Information technology is impact in all areas including insurance sector.</p>
+                </div>
+                <div class="absolute lg:hidden group-hover:flex  bg-black/10 top-0 rounded right-0 left-0 h-full flex items-center justify-center">
+                    <button class="bg-white py-4 px-5 border border-blue-800 rounded-full flex items-center justify-center ">Check more</button>
                 </div>
             </div>
             <div class="max-h-[24rem]  lg:h-[24rem] p-2  shadow-lg">
@@ -57,6 +60,7 @@
                 <div class="p-3 rounded-lg  font-medium">
                     <p class="lg:font-bold"><strong>IT Outsourcing</strong></p>
                     <p class="lg:font-normal">One of the main reasons businesses outsource IT services is to save money. When you outsource IT services, you are able to avoid the high costs associated with hiring and training in-house staff.</p>
+                    <p class="border border-blue-800 h-8 w-36 rounded-full flex items-center justify-center my-5">Check more</p>
                 </div>
             </div>
             <div class="max-h-[24rem] lg:h-[24rem]  p-2 shadow-lg"> 
@@ -66,6 +70,7 @@
                 <div class=" p-3 rounded-lg font-medium ">
                     <p class="lg:font-bold"><strong>IT Software</strong></p>
                     <p class="lg:font-normal">Software is a dominating factor in the development of complex systems. It plays a crucial role in the performance of the final product at the one hand.</p>
+                    <p class=" border border-blue-800 h-8 w-36 rounded-full flex items-center justify-center my-5">Check more</p>
                 </div>
             </div>
         </div>
@@ -75,11 +80,17 @@
             <div>
                 <p class="text-center  font-light text-3xl p-3">Our Client are thrilled to work us</p>
             </div>
-            <div class="p-5">
-                <div class="h-10 w-20">
-                    <img class="h-10 w-20" src="https://marketplace.canva.com/EAFXS8-cvyQ/1/0/1600w/canva-brown-and-light-brown%2C-circle-framed-instagram-profile-picture-2PE9qJLmPac.jpg" >
+            <div class="my-5 flex border justify-center items-center mx-2 h-80">
+                <div class="flex flex-col items-center">
+                    <p class="h-48">
+                        <img class="h-full w-full" src="https://marketplace.canva.com/EAFXS8-cvyQ/1/0/1600w/canva-brown-and-light-brown%2C-circle-framed-instagram-profile-picture-2PE9qJLmPac.jpg" >
+                    </p>
+                    <p class="font-bold text-2xl">Ibe John</p>
                 </div>
-                <p class="flex flex-col">Ibe John <samp class="border">Creativity is allowing yourself to make mistakes. Art is knowing which ones to keep.</samp></p>
+                <div>
+                    <p class="text-2xl border p-2 py-10clear
+                     rounded-r-full rounded-tl-full">Creativity is allowing yourself to make mistakes. Art is knowing which ones to keep.</p>
+                </div>
             </div>
         </div>
     </section>
